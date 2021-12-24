@@ -1,0 +1,27 @@
+{
+  "name": "olympics_games",
+  "version": "1.0.0",
+  "description": "Olympics games Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedazawi/olympic_games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedazawi/olympic_games/issues"
+  },
+  "homepage": "https://github.com/ahmedazawi/olympic_games#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

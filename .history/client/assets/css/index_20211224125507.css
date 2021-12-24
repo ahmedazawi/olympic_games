@@ -1,0 +1,9 @@
+* {
+  --appColor: rgb(63, 62, 85);
+  color: var(--appColor);
+}
+.body-container .card {
+  border-radius: 10px;
+  background-color: var(--appColor);
+  color: white;
+}

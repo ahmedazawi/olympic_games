@@ -1,0 +1,4 @@
+*{
+    --appColor:rgb(63,62,85)
+    color:var(var(--appColor))
+}

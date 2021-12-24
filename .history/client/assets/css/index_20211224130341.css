@@ -1,0 +1,23 @@
+* {
+  --appColor: rgb(63, 62, 85);
+}
+body {
+  color: var(--appColor);
+}
+.bg-app-color {
+  background-color: var(--appColor);
+  border: var(--appColor);
+}
+.font-app-color {
+  color: var(--appColor);
+}
+.body-container .card {
+  border-radius: 10px;
+  height: 200px;
+  background-color: var(--appColor);
+  color: white;
+  overflow: hidden;
+}
+.body-container .card img {
+  width: calc(100px + 40vw);
+}
